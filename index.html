@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+   <title>FAQ </title>
+<!-- META TAGS --> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta http-equiv="X-UA-Compatible" CONTENT="ie=edge" />
+
+    <link href="style.css" rel="stylesheet">
+    
+   </head>
+  <body>
+      <main>
+          <div class="container">
+    <button class="accordion">How do I get stared with Bacon Coin?</button>
+    <div class="panel">
+      <p>The Beacon Protocol is a decentralized mortgage lending protocol built using smart contracts on the Ethereum blockchain</p>
+    </div>
+    
+    <button class="accordion">Where do I purchase bHOME?</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+    
+    <button class="accordion">What currencies can I use to purchase bHOME?</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+    <button class="accordion">Is Bacon coin Audited?</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+    <button class="accordion">Are there specific wallets that support bHome tokens?</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+</div>
+</main>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+        </script>
+  </body>
+  </html>
